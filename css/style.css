@@ -1,0 +1,185 @@
+body {
+    /*background: url("../images/bg.png");*/
+    background-color: #CCC;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 650px;
+}
+
+/* Filler image until I find a better image -Will */
+
+
+/* Fonts also need more work -Will */
+
+
+/* I'll add a login button tomorrow -Will */
+
+.centreblock {
+    width: 470px;
+}
+.headtext {
+    display: block;
+    color: #2468EE;
+    text-align: center;
+    margin: auto auto;
+}
+.signuptext {
+    background-color: rgb(204, 204, 204);
+    /* Fallback colour, if browser can't support transparency. IE + Safari */
+    background-color: rgba(204, 204, 204, .8);
+    color: #444;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 4px;
+}
+.user-page-borders {
+    margin: 10px -10px;
+    background-color: rgb(246, 246, 246);
+    /* Fallback colour, if browser can't support transparency. IE + Safari */
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+
+.suggested-userpic {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.suggested-textarea{
+    color: #444;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: inherit;
+}
+
+.user-profile-pic {
+
+    float: left;
+    background-color: #DFDFDF;
+    border-radius: 5px;
+}
+.information {
+    margin: 20px 0px 0px 260px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.userdata{
+    
+}
+
+.userdata td{
+
+    padding: 10px 30px;
+
+}
+
+.align-right{
+    text-align: right;
+    border-left: 1px solid #a9a9a9;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.userdata tr{
+
+}
+
+.selection {
+    align-self: auto;
+    padding: 12px 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.selectday, .selectmonth, .selectyear {
+    padding: 8px 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.index-btn {
+    color: white;
+    border: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-self: auto;
+    border-radius: 4px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+li a {
+    display: inline-block;
+    color: #444;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #0099CC;
+    color: white;
+}
+
+#wrap {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+input {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #0099CC;
+    background: -moz-linear-gradient(top, #FFF, #0099CC);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA));
+    border: 1px solid #0099CC;
+    color: #444;
+    font-size: 1.4em;
+    margin: 0 0 25px;
+    padding: 5px 9px;
+    width: 260px;
+}
+button {
+    background-color: white;
+    border: 2px solid #0099cc;
+    color: black;
+    padding: 16px 32px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #FFF, #0099CC);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    color: #0099cc;
+    text-decoration: none;
+}

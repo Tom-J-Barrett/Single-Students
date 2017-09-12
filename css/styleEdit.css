@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+li {
+    float: left;
+    border-right:1px solid white;
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0099CC;
+	color: white;
+}
+
+#wrap {
+	max-width: 1020px;
+	margin: 0 auto;
+}
